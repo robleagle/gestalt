@@ -296,7 +296,7 @@ const componentData: $ReadOnlyArray<ComponentData> = [
         },
       },
     },
-  {
+
     id: 'BoardRep',
     platform: {
       figma: {
