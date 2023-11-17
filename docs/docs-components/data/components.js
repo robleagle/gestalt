@@ -241,61 +241,61 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           status: 'planned',
         },
       },
-  {
-    id: 'Badge',
-    platform: {
-      web: {
-        name: 'Badge',
-        visual: {
-          svg: <Badge />,
-        },
-        alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-        description: 'Badge is a label that indicates status or importance.',
-        category: ['Indicators'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
+
+      id: 'Badge',
+      platform: {
+        web: {
+          name: 'Badge',
+          visual: {
+            svg: <Badge />,
           },
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          responsive: 'ready',
-          status: 'ready',
+          alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+          description: 'Badge is a label that indicates status or importance.',
+          category: ['Indicators'],
+          status: {
+            accessible: {
+              summary: 'ready',
+              a11yVisual: 'ready',
+              a11yScreenreader: 'ready',
+              a11yNavigation: 'ready',
+              a11yComprehension: 'ready',
+            },
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            responsive: 'ready',
+            status: 'ready',
+          },
         },
-      },
-      android: {
-        name: 'Badge',
-        visual: {
-          svg: <Badge />,
+        android: {
+          name: 'Badge',
+          visual: {
+            svg: <Badge />,
+          },
+          alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+          description: 'Badge is a label that indicates status or importance.',
+          category: ['Indicators'],
+          status: {
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            status: 'planned',
+          },
         },
-        alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-        description: 'Badge is a label that indicates status or importance.',
-        category: ['Indicators'],
-        status: {
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          status: 'planned',
-        },
-      },
-      ios: {
-        name: 'Badge',
-        visual: {
-          svg: <Badge />,
-        },
-        alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-        description: 'Badge is a label that indicates status or importance.',
-        category: ['Indicators'],
-        status: {
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          status: 'planned',
+        ios: {
+          name: 'Badge',
+          visual: {
+            svg: <Badge />,
+          },
+          alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+          description: 'Badge is a label that indicates status or importance.',
+          category: ['Indicators'],
+          status: {
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            status: 'planned',
+          },
         },
       },
     },
-  },
   {
     id: 'BoardRep',
     platform: {
