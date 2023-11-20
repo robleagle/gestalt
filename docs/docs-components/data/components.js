@@ -466,56 +466,52 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           status: 'ready',
         },
       },
-  {
-    id: 'Callout',
-    platform: {
-      web: {
-        name: 'Callout',
-        visual: {
-          svg: <Callout />,
-        },
-        alias: ['Banner', 'Message', 'Notification', 'Notice', 'Note'],
-        description:
-          'Callout is a banner displaying short messages with helpful information for a task on the page, or something that requires the user’s attention.',
-        category: ['Messaging'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
+      id: 'Callout',
+      platform: {
+        web: {
+          name: 'Callout',
+          visual: {
+            svg: <Callout />,
           },
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          responsive: 'ready',
-          status: 'ready',
+          alias: ['Banner', 'Message', 'Notification', 'Notice', 'Note'],
+          description:
+            'Callout is a banner displaying short messages with helpful information for a task on the page, or something that requires the user’s attention.',
+          category: ['Messaging'],
+          status: {
+            accessible: {
+              summary: 'ready',
+              a11yVisual: 'ready',
+              a11yScreenreader: 'ready',
+              a11yNavigation: 'ready',
+              a11yComprehension: 'ready',
+            },
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            responsive: 'ready',
+            status: 'ready',
+          },
+        },
+      },
+      id: 'Card',
+      platform: {
+        ios: {
+          name: 'Card',
+          visual: {
+            svg: <Card />,
+          },
+          path: '/ios/card/card',
+          alias: ['Entry Card', 'Module', 'Panel', 'Teaser'],
+          description:
+            'Card is a semi-modular container used to house Card.Header and a variant of the available preview blocks.',
+          category: ['Pins and imagery'],
+          status: {
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            status: 'planned',
+          },
         },
       },
     },
-  },
-  {
-    id: 'Card',
-    platform: {
-      ios: {
-        name: 'Card',
-        visual: {
-          svg: <Card />,
-        },
-        path: '/ios/card/card',
-        alias: ['Entry Card', 'Module', 'Panel', 'Teaser'],
-        description:
-          'Card is a semi-modular container used to house Card.Header and a variant of the available preview blocks.',
-        category: ['Pins and imagery'],
-        status: {
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          status: 'planned',
-        },
-      },
-    },
-  },
-  {
     id: 'ChartGraph',
     platform: {
       web: {
@@ -1234,33 +1230,31 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           status: 'ready',
         },
       },
-  {
-    id: 'Image',
-    platform: {
-      web: {
-        name: 'Image',
-        visual: {
-          svg: <Image />,
-        },
-        alias: ['<img>', 'Picture', 'Photo'],
-        description: 'Image is used to represent images.',
-        category: ['Pins and imagery'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
+      id: 'Image',
+      platform: {
+        web: {
+          name: 'Image',
+          visual: {
+            svg: <Image />,
           },
-          documentation: 'partial',
-          responsive: 'ready',
-          status: 'ready',
+          alias: ['<img>', 'Picture', 'Photo'],
+          description: 'Image is used to represent images.',
+          category: ['Pins and imagery'],
+          status: {
+            accessible: {
+              summary: 'ready',
+              a11yVisual: 'ready',
+              a11yScreenreader: 'ready',
+              a11yNavigation: 'ready',
+              a11yComprehension: 'ready',
+            },
+            documentation: 'partial',
+            responsive: 'ready',
+            status: 'ready',
+          },
         },
       },
     },
-  },
-  {
     id: 'Label',
     platform: {
       web: {
