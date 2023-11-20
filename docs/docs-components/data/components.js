@@ -241,7 +241,6 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           status: 'planned',
         },
       },
-<<<<<<< HEAD
 
       id: 'Badge',
       platform: {
