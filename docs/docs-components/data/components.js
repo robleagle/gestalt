@@ -264,104 +264,103 @@ const componentData: $ReadOnlyArray<ComponentData> = [
             figmaStatus: 'ready',
             responsive: 'ready',
             status: 'ready',
-=======
-    },
-  },
-  {
-    id: 'Badge',
-    platform: {
-      web: {
-        name: 'Badge',
-        visual: {
-          svg: <Badge />,
-        },
-        alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-        description: 'Badge is a label that indicates status or importance.',
-        category: ['Indicators'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
->>>>>>> ae1196969d3d97c7cbeef7869da3dd6802286541
+
           },
         },
-        android: {
-          name: 'Badge',
+
+        id: 'Badge',
+        platform: {
+          web: {
+            name: 'Badge',
+            visual: {
+              svg: <Badge />,
+            },
+            alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+            description: 'Badge is a label that indicates status or importance.',
+            category: ['Indicators'],
+            status: {
+              accessible: {
+                summary: 'ready',
+                a11yVisual: 'ready',
+                a11yScreenreader: 'ready',
+                a11yNavigation: 'ready',
+                a11yComprehension: 'ready',
+              },
+            },
+            android: {
+              name: 'Badge',
+              visual: {
+                svg: <Badge />,
+              },
+              alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+              description: 'Badge is a label that indicates status or importance.',
+              category: ['Indicators'],
+              status: {
+                documentation: 'ready',
+                figmaStatus: 'ready',
+                status: 'planned',
+              },
+            },
+            ios: {
+              name: 'Badge',
+              visual: {
+                svg: <Badge />,
+              },
+              alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
+              description: 'Badge is a label that indicates status or importance.',
+              category: ['Indicators'],
+              status: {
+                documentation: 'ready',
+                figmaStatus: 'ready',
+                status: 'planned',
+              },
+            },
+          },
+        },
+
+        id: 'BoardRep',
+        platform: {
+          figma: {
+            name: 'BoardRep',
+            visual: {
+              svg: <svg />,
+            },
+            category: [],
+            status: {
+              documentation: 'notAvailable',
+              status: 'ready',
+            },
+          },
+        },
+      },
+
+      id: 'Box',
+      platform: {
+        web: {
+          name: 'Box',
           visual: {
-            svg: <Badge />,
+            svg: <Box />,
           },
-          alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-          description: 'Badge is a label that indicates status or importance.',
-          category: ['Indicators'],
+          description:
+            'Box is a component primitive that can be used to build the foundation of pretty much any other component.',
+          category: ['Building blocks'],
+          alias: ['<div>', 'View'],
           status: {
-            documentation: 'ready',
-            figmaStatus: 'ready',
-            status: 'planned',
-          },
-        },
-        ios: {
-          name: 'Badge',
-          visual: {
-            svg: <Badge />,
-          },
-          alias: ['Lozenge', 'Label', 'Stamp', 'Flag'],
-          description: 'Badge is a label that indicates status or importance.',
-          category: ['Indicators'],
-          status: {
-            documentation: 'ready',
-            figmaStatus: 'ready',
-            status: 'planned',
+            accessible: {
+              summary: 'ready',
+              a11yVisual: 'ready',
+              a11yScreenreader: 'ready',
+              a11yNavigation: 'ready',
+              a11yComprehension: 'ready',
+            },
+            documentation: 'partial',
+            responsive: 'ready',
+            status: 'ready',
           },
         },
       },
     },
 
-    id: 'BoardRep',
-    platform: {
-      figma: {
-        name: 'BoardRep',
-        visual: {
-          svg: <svg />,
-        },
-        category: [],
-        status: {
-          documentation: 'notAvailable',
-          status: 'ready',
-        },
-      },
-    },
-  },
-  {
-    id: 'Box',
-    platform: {
-      web: {
-        name: 'Box',
-        visual: {
-          svg: <Box />,
-        },
-        description:
-          'Box is a component primitive that can be used to build the foundation of pretty much any other component.',
-        category: ['Building blocks'],
-        alias: ['<div>', 'View'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
-          },
-          documentation: 'partial',
-          responsive: 'ready',
-          status: 'ready',
-        },
-      },
-    },
-  },
-  {
     id: 'Button',
     platform: {
       web: {
@@ -488,7 +487,7 @@ const componentData: $ReadOnlyArray<ComponentData> = [
           status: 'ready',
         },
       },
-<<<<<<< HEAD
+
       id: 'Callout',
       platform: {
         web: {
@@ -531,114 +530,114 @@ const componentData: $ReadOnlyArray<ComponentData> = [
             documentation: 'ready',
             figmaStatus: 'ready',
             status: 'planned',
-=======
-    },
-  },
 
-  {
-    id: 'Callout',
-    platform: {
-      web: {
-        name: 'Callout',
-        visual: {
-          svg: <Callout />,
+          },
         },
-        alias: ['Banner', 'Message', 'Notification', 'Notice', 'Note'],
-        description:
-          'Callout is a banner displaying short messages with helpful information for a task on the page, or something that requires the user’s attention.',
-        category: ['Messaging'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
->>>>>>> ae1196969d3d97c7cbeef7869da3dd6802286541
+
+
+        id: 'Callout',
+        platform: {
+          web: {
+            name: 'Callout',
+            visual: {
+              svg: <Callout />,
+            },
+            alias: ['Banner', 'Message', 'Notification', 'Notice', 'Note'],
+            description:
+              'Callout is a banner displaying short messages with helpful information for a task on the page, or something that requires the user’s attention.',
+            category: ['Messaging'],
+            status: {
+              accessible: {
+                summary: 'ready',
+                a11yVisual: 'ready',
+                a11yScreenreader: 'ready',
+                a11yNavigation: 'ready',
+                a11yComprehension: 'ready',
+
+              },
+            },
+          },
+        },
+        id: 'ChartGraph',
+        platform: {
+          web: {
+            name: 'ChartGraph',
+            visual: {
+              svg: <ChartGraph />,
+            },
+            alias: ['Bar Graph', 'Line Graph', 'Column Graph'],
+            description:
+              'ChartGraph is used for displaying various types of graphs plotted on an x and y axis. ',
+            category: ['Data'],
+            status: {
+              accessible: {
+                summary: 'ready',
+                a11yVisual: 'ready',
+                a11yScreenreader: 'ready',
+                a11yNavigation: 'ready',
+                a11yComprehension: 'ready',
+              },
+              documentation: 'ready',
+              figmaStatus: 'ready',
+              responsive: 'ready',
+              status: 'ready',
+            },
+          },
+        },
+      },
+
+      id: 'Checkbox',
+      platform: {
+        web: {
+          name: 'Checkbox',
+          visual: {
+            svg: <Checkbox />,
+          },
+          description: 'Use Checkbox when displaying 3 or more toggle inputs.',
+          category: ['Controls'],
+          status: {
+            accessible: {
+              summary: 'ready',
+              a11yVisual: 'ready',
+              a11yScreenreader: 'ready',
+              a11yNavigation: 'ready',
+              a11yComprehension: 'ready',
+            },
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            responsive: 'ready',
+            status: 'ready',
+          },
+        },
+        android: {
+          name: 'Checkbox',
+          visual: {
+            svg: <Checkbox />,
+          },
+          description: 'Checkbox is used for multiple choice selection.',
+          category: ['Controls'],
+          status: {
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            status: 'ready',
+          },
+        },
+        ios: {
+          name: 'Checkbox',
+          visual: {
+            svg: <Checkbox />,
+          },
+          description: 'Checkbox is used for multiple choice selection.',
+          category: ['Controls'],
+          status: {
+            documentation: 'ready',
+            figmaStatus: 'ready',
+            status: 'planned',
           },
         },
       },
     },
-    id: 'ChartGraph',
-    platform: {
-      web: {
-        name: 'ChartGraph',
-        visual: {
-          svg: <ChartGraph />,
-        },
-        alias: ['Bar Graph', 'Line Graph', 'Column Graph'],
-        description:
-          'ChartGraph is used for displaying various types of graphs plotted on an x and y axis. ',
-        category: ['Data'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
-          },
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          responsive: 'ready',
-          status: 'ready',
-        },
-      },
-    },
-  },
-  {
-    id: 'Checkbox',
-    platform: {
-      web: {
-        name: 'Checkbox',
-        visual: {
-          svg: <Checkbox />,
-        },
-        description: 'Use Checkbox when displaying 3 or more toggle inputs.',
-        category: ['Controls'],
-        status: {
-          accessible: {
-            summary: 'ready',
-            a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-            a11yNavigation: 'ready',
-            a11yComprehension: 'ready',
-          },
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          responsive: 'ready',
-          status: 'ready',
-        },
-      },
-      android: {
-        name: 'Checkbox',
-        visual: {
-          svg: <Checkbox />,
-        },
-        description: 'Checkbox is used for multiple choice selection.',
-        category: ['Controls'],
-        status: {
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          status: 'ready',
-        },
-      },
-      ios: {
-        name: 'Checkbox',
-        visual: {
-          svg: <Checkbox />,
-        },
-        description: 'Checkbox is used for multiple choice selection.',
-        category: ['Controls'],
-        status: {
-          documentation: 'ready',
-          figmaStatus: 'ready',
-          status: 'planned',
-        },
-      },
-    },
-  },
-  {
+
     id: 'Collage',
     platform: {
       web: {
@@ -1223,96 +1222,15 @@ const componentData: $ReadOnlyArray<ComponentData> = [
   },
 
   id: 'IconButtonFloating',
-  platform:
-  web: {
-    name: 'IconButtonFloating',
-    visual: {
-      svg: <IconButtonFloating />,
-    },
-    alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
-    description:
-      'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
-    category: ['Actions'],
-    status: {
-      accessible: {
-        summary: 'ready',
-        a11yVisual: 'ready',
-        a11yScreenreader: 'ready',
-        a11yNavigation: 'ready',
-        a11yComprehension: 'ready',
-      },
-      documentation: 'ready',
-      figmaStatus: 'ready',
-      responsive: 'ready',
-      status: 'ready',
-    },
-  },
-  android: {
-    name: 'IconButtonFloating',
-    visual: {
-      svg: <IconButtonFloating />,
-    },
-    alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
-    description:
-      'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
-    category: ['Actions'],
-    status: {
-      documentation: 'ready',
-      figmaStatus: 'ready',
-      status: 'ready',
-    },
-  },
-  ios: {
-    name: 'IconButtonFloating',
-    visual: {
-      svg: <IconButtonFloating />,
-    },
-    alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
-    description:
-      'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
-    category: ['Actions'],
-    status: {
-      documentation: 'ready',
-      figmaStatus: 'ready',
-      status: 'ready',
-    },
-  },
-<<<<<<< HEAD
-  id: 'Image',
-  platform:
-  web: {
-    name: 'Image',
-    visual: {
-      svg: <Image />,
-    },
-    alias: ['<img>', 'Picture', 'Photo'],
-    description: 'Image is used to represent images.',
-    category: ['Pins and imagery'],
-    status: {
-      accessible: {
-        summary: 'ready',
-        a11yVisual: 'ready',
-        a11yScreenreader: 'ready',
-        a11yNavigation: 'ready',
-        a11yComprehension: 'ready',
-      },
-      documentation: 'partial',
-      responsive: 'ready',
-      status: 'ready',
-=======
-    },
-  },
-  {
-    id: 'Image',
-    platform: {
-      web: {
-        name: 'Image',
-        visual: {
-          svg: <Image />,
-        },
-        alias: ['<img>', 'Picture', 'Photo'],
-        description: 'Image is used to represent images.',
-        category: ['Pins and imagery'],
+  platform: {
+    web: {
+      name: 'IconButtonFloating',
+      visual: {
+        svg: <IconButtonFloating,
+          alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
+        description:
+          'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
+        category: ['Actions'],
         status: {
           accessible: {
             summary: 'ready',
@@ -1320,1618 +1238,1393 @@ const componentData: $ReadOnlyArray<ComponentData> = [
             a11yScreenreader: 'ready',
             a11yNavigation: 'ready',
             a11yComprehension: 'ready',
->>>>>>> ae1196969d3d97c7cbeef7869da3dd6802286541
-    },
-  },
-      },
-    },
-id: 'Label',
-  platform: {
-  web: {
-    name: 'Label',
-      visual: {
-      svg: <GestaltLabel />,
-        },
-    alias: ['Field Label', 'Form Label'],
-      description: 'Label is used to connect a label with a form component in an accessible way.',
-        category: ['Fields and forms'],
-          status: {
-      accessible: {
-        summary: 'ready',
-          a11yVisual: 'ready',
-            a11yScreenreader: 'ready',
-              a11yNavigation: 'ready',
-                a11yComprehension: 'ready',
           },
-      documentation: 'partial',
-        figmaStatus: 'notAvailable',
+          documentation: 'ready',
+          figmaStatus: 'ready',
           responsive: 'ready',
-            status: 'ready',
-        },
-  },
-},
-  },
-{
-  id: 'Layer',
-    platform: {
-    web: {
-      name: 'Layer',
-        visual: {
-        svg: <Layer />,
-          hasDarkBackground: true,
-        },
-      alias: ['Portal', 'Overlay'],
-        description: 'Layers allow you to render children outside the DOM hierarchy of the parent.',
-          category: ['Building blocks'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Letterbox',
-    platform: {
-    web: {
-      name: 'Letterbox',
-        visual: {
-        svg: <Letterbox />,
-        },
-      description:
-      'Letterboxes are useful if you have some source media which is larger than the area you want to display it in.',
-        category: ['Building blocks'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Link',
-    platform: {
-    web: {
-      name: 'Link',
-        visual: {
-        svg: <GestaltLink />,
-        },
-      alias: ['Anchor', '<a>', 'Text Link', 'Hyperlink'],
-        description: 'Link allow users to click their way from page to page.',
-          category: ['Actions'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'List',
-    platform: {
-    web: {
-      name: 'List',
-        visual: {
-        svg: <List />,
-        },
-      alias: ['Unordered List', 'Ordered list', '<ol>', '<ul>', '<li>'],
-        description:
-      'List allows users to view individual, but related, text items grouped together.',
-        category: ['Structure'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'notAvailable',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'ListAction',
-    platform: {
-    android: {
-      name: 'ListAction',
-        visual: {
-        svg: <ListAction />, // THIS IS WRONG
-        },
-      alias: ['Table', 'List', 'List item', 'Menu'],
-        description:
-      'ListAction is a continuous vertical group of list items that can include text, icons, images and actions.',
-        category: ['Structure'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-    ios: {
-      name: 'ListAction',
-        visual: {
-        svg: <ListAction />, // THIS IS WRONG
-        },
-      alias: ['Table', 'List', 'List item', 'Menu'],
-        description:
-      'ListAction is a continuous vertical group of list items that can include text, icons, images and actions.',
-        category: ['Structure'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'Mask',
-    platform: {
-    web: {
-      name: 'Mask',
-        visual: {
-        svg: <Mask />,
-        },
-      description: 'Mask is used to display content in a specific shape.',
-        category: ['Building blocks'],
-          status: {
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Masonry',
-    platform: {
-    web: {
-      name: 'Masonry',
-        visual: {
-        svg: <Masonry />,
-        },
-      alias: ['Grid', 'Image List'],
-        description:
-      'Masonry creates a deterministic grid layout, positioning items based on available vertical space.',
-        category: ['Pins and imagery'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Modal',
-    platform: {
-    web: {
-      name: 'Modal',
-        visual: {
-        svg: <Modal />,
-        },
-      alias: ['Dialog', 'Prompt'],
-        description: 'Modal displays content that requires user interaction.',
-          category: ['Overlays'],
-            status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'partial',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            mobileAdaptive: 'ready',
-              responsive: 'ready',
-                status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'ModalAlert',
-    platform: {
-    web: {
-      name: 'ModalAlert',
-        visual: {
-        svg: <ModalAlert />,
-        },
-      alias: ['AlertDialog', 'Prompt'],
-        description:
-      'ModalAlert is used to alert a user of an issue, or to request confirmation after a user-triggered action.',
-        category: ['Overlays'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'partial',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Module',
-    platform: {
-    web: {
-      name: 'Module',
-        visual: {
-        svg: <Module />,
-        },
-      alias: [
-        'Accordion',
-        'Section',
-        'Expandable Section',
-        'Disclosure',
-        'Stack View',
-        'Expander',
-      ],
-        description: 'Module is a container that holds content about one subject.',
-          category: ['Structure'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'NumberField',
-    platform: {
-    web: {
-      name: 'NumberField',
-        visual: {
-        svg: <NumberField />,
-        },
-      alias: ['Number Input', 'Spin Box'],
-        description: 'NumberField allows for numerical input.',
-          category: ['Fields and forms'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'OverlayPanel',
-    platform: {
-    web: {
-      name: 'OverlayPanel',
-        visual: {
-        svg: <OverlayPanel />,
-        },
-      alias: ['Drawer', 'Panel', 'Tray', 'Sheet'],
-        description:
-      'OverlayPanels are surfaces that allow users to view optional information or complete sub-tasks in a workflow while keeping the context of the current page.',
-        category: ['Overlays'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'PageHeader',
-    platform: {
-    web: {
-      name: 'PageHeader',
-        visual: {
-        svg: <PageHeader />,
-        },
-      description:
-      'PageHeader is used to indicate the title of the current page, as well as optional actions.',
-        category: ['Structure'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Pins',
-    platform: {
-    figma: {
-      name: 'Pins',
-        visual: {
-        svg: <svg />,
-        },
-      category: [],
-        status: {
-        documentation: 'notAvailable',
           status: 'ready',
         },
-    },
-  },
-},
-{
-  id: 'Pog',
-    platform: {
-    web: {
-      name: 'Pog',
-        visual: {
-        svg: <Pog />,
-        },
-      description:
-      'Pog is a lower-level functional component to show the active, hovered, and focused states of IconButton.',
-        category: ['Building blocks'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Popover',
-    platform: {
-    web: {
-      name: 'Popover',
-        visual: {
-        svg: <Popover />,
-        },
-      alias: ['Flyout'],
-        description:
-      'Popover is a floating view that contains a task related to the content on screen.',
-        category: ['Overlays'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'partial',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            mobileAdaptive: 'planned',
-              responsive: 'ready',
-                status: 'ready',
-                  knownIssues: [
-                    {
-                      title: 'Incorrect positioning and dimensions',
-                      description:
-                        'Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
-                      internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
-                    },
-                  ],
-        },
-    },
-  },
-},
-{
-  id: 'PopoverEducational',
-    platform: {
-    web: {
-      name: 'PopoverEducational',
-        visual: {
-        svg: <PopoverEducational />,
-        },
-      description:
-      'PopoverEducational is a floating container that introduces users to elements on the screen. Used for education or onboarding experiences.',
-        category: ['Help and guidance'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'partial',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-                knownIssues: [
-                  {
-                    title: 'Caret misalignment',
-                    description:
-                      "PopoverEducational's caret might appear misaligned when positioned below the element of reference.",
-                    internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
-                  },
-                  {
-                    title: 'Incorrect positioning and dimensions',
-                    description:
-                      'PopoverEducational is built on top of Popover. Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
-                    internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
-                  },
-                ],
-        },
-    },
-  },
-},
-{
-  id: 'ProfileRep',
-    platform: {
-    figma: {
-      name: 'ProfileRep',
-        visual: {
-        svg: <svg />,
-        },
-      category: [],
-        status: {
-        documentation: 'notAvailable',
-          status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Pulsar',
-    platform: {
-    web: {
-      name: 'Pulsar',
-        visual: {
-        svg: <Pulsar />,
-        },
-      alias: ['Activity Indicator', 'Circular Indicator', 'Ring'],
-        description:
-      'Pulsars bring focus to a specific element on the screen and act like training wheels to guide people towards the normal way to perform that action.',
-        category: ['Loading'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'partial',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'RadioGroup',
-    platform: {
-    web: {
-      name: 'RadioGroup',
-        visual: {
-        svg: <RadioGroup />,
-        },
-      alias: ['Single Select', 'Option Buttons', 'Radio Inputs'],
-        description: 'Use RadioGroup when you have a few options that a user can choose from.',
-          category: ['Controls'],
+        android: {
+          name: 'IconButtonFloating',
+          visual: {
+            svg: <IconButtonFloating,
+              alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
+            description:
+              'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
+            category: ['Actions'],
             status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
+              documentation: 'ready',
+              figmaStatus: 'ready',
               status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'ScrollBoundaryContainer',
-    platform: {
-    web: {
-      name: 'ScrollBoundaryContainer',
-        visual: {
-        svg: <ScrollBoundaryContainer />,
-        },
-      alias: ['ScrollableContainer'],
-        path: '/web/utilities/scrollboundarycontainer',
-          description:
-      'ScrollBoundaryContainer is needed for proper positioning when Popover is anchored to an element that is located within a scrolling container.',
-        category: ['Building blocks'],
-          status: {
-        documentation: 'ready',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'SearchField',
-    platform: {
-    web: {
-      name: 'SearchField',
-        visual: {
-        svg: <SearchField />,
-        },
-      alias: ['Search Box', 'Search Bar'],
-        description: 'SearchField allows users to search for free-form content.',
-          category: ['Fields and forms'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'SearchField',
-        visual: {
-        svg: <SearchField />,
-        },
-      alias: ['Search Box', 'Search Bar'],
-        description: 'SearchField allows users to search for free-form content.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'SearchField',
-        visual: {
-        svg: <SearchField />, // THIS IS WRONG
-        },
-      alias: ['Search Box', 'Search Bar'],
-        description: 'SearchField allows users to search for free-form content.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'SegmentedControl',
-    platform: {
-    web: {
-      name: 'SegmentedControl',
-        visual: {
-        svg: <SegmentedControl />,
-        },
-      alias: ['Toggle Group'],
-        description: 'SegmentedControl may be used to group multiple selections.',
-          category: ['Navigation'],
-            status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'partial',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          figmaStatus: 'partial',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'SelectList',
-    platform: {
-    web: {
-      name: 'SelectList',
-        visual: {
-        svg: <SelectList />,
-        },
-      alias: ['Picklist', 'Picker'],
-        description:
-      'SelectList displays a list of actions or options using the browser’s native select.',
-        category: ['Fields and forms'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Sheet',
-    platform: {
-    web: {
-      name: 'SheetMobile',
-        visual: {
-        svg: <SheetMobile />,
-        },
-      alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
-        description:
-      'SheetMobile is a mobile only component. SheetMobile is a supplementary container that sits on top of the screen’s primary content.',
-        category: ['Building blocks'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        badge: 'Pilot',
-          documentation: 'ready',
-            status: 'ready',
-        },
-    },
-    android: {
-      name: 'Sheet',
-        visual: {
-        svg: <SheetMobile />, // THIS IS WRONG
-        },
-      alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
-        description:
-      'Sheets are bottom-anchored overlays that that allow the user to easily return to the previous screen. They are meant for temporary focused tasks. Sheets are the mobile equivalent of the modal or overlay on web.',
-        category: [],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-    ios: {
-      name: 'Sheet',
-        visual: {
-        svg: <SheetMobile />, // THIS IS WRONG
-        },
-      alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
-        description:
-      'Sheets are bottom-anchored overlays that that allow the user to easily return to the previous screen. They are meant for temporary focused tasks. Sheets are the mobile equivalent of the modal or overlay on web.',
-        category: [],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'SideNavigation',
-    platform: {
-    web: {
-      name: 'SideNavigation',
-        visual: {
-        svg: <SideNavigation />,
-        },
-      alias: ['Legend'],
-        description:
-      'SideNavigation is start-aligned and arranged vertically. It is used to navigate between page urls or sections when you have too many menu items to fit in horizontal Tabs',
-        category: ['Navigation'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            mobileAdaptive: 'ready',
-              responsive: 'ready',
-                status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'SlimBanner',
-    platform: {
-    web: {
-      name: 'SlimBanner',
-        visual: {
-        svg: <SlimBanner />,
-        },
-      alias: ['Notice', 'Note', 'Scoped Notification'],
-        description:
-      'SlimBanner conveys brief information related to a specific section of a page.',
-        category: ['Messaging'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Spinner',
-    platform: {
-    web: {
-      name: 'Spinner',
-        visual: {
-        svg: <Spinner />,
-        },
-      alias: [
-        'Refresh Indicator',
-        'Refresh Control',
-        'Loader',
-        'Circular Loader',
-        'Loading Animation',
-      ],
-        description:
-      "Spinner helps indicate that a surface's content or portion of content is currently loading.",
-        category: ['Loading'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Status',
-    platform: {
-    web: {
-      name: 'Status',
-        visual: {
-        svg: <Status />,
-        },
-      alias: ['Status Indicator', 'Signal', 'System Feedback'],
-        description: "Status is a graphic indicator of an element's state.",
-          category: ['Indicators'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Sticky',
-    platform: {
-    web: {
-      name: 'Sticky',
-        visual: {
-        svg: <Sticky />,
-        },
-      description: 'Sticky allows an element to become fixed when it reaches a threshold.',
-        category: ['Building blocks'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Switch',
-    platform: {
-    web: {
-      name: 'Switch',
-        visual: {
-        svg: <Switch />,
-        },
-      alias: ['Toggle', 'Slide Toggle'],
-        description: 'Switch is used for single cell options that can be turned on and off only.',
-          category: ['Controls'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'Switch',
-        visual: {
-        svg: <Switch />,
-        },
-      alias: ['Toggle', 'Slide Toggle'],
-        description: 'Switch is used for single cell options that can be turned on and off only.',
-          category: ['Controls'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'Switch',
-        visual: {
-        svg: <Switch />,
-        },
-      alias: ['Toggle', 'Slide Toggle'],
-        description: 'Switch is used for single cell options that can be turned on and off only.',
-          category: ['Controls'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'Table',
-    platform: {
-    web: {
-      name: 'Table',
-        visual: {
-        svg: <Table />,
-        },
-      alias: ['Data Table', 'Data Grid'],
-        description:
-      'Table is a set of structured data that is easy for a user to scan, examine, and compare.',
-        category: ['Data'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'partial',
-              a11yScreenreader: 'partial',
-                a11yNavigation: 'partial',
-                  a11yComprehension: 'partial',
-          },
-        documentation: 'ready',
-          figmaStatus: 'partial',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'TableOfContents',
-    platform: {
-    web: {
-      name: 'TableOfContents',
-        visual: {
-        svg: <TableOfContents />,
-        },
-      alias: ['Table of Contents', 'Page Navigation', 'Page Navigator', 'Secondary Nav'],
-        description:
-      'TableOfContents is used to navigate to anchors on a page. It also serves as an outline of a page’s content.',
-        category: ['Navigation'],
-          status: {
-        accessible: {
-          a11yComprehension: 'ready',
-            a11yNavigation: 'ready',
-              a11yScreenreader: 'ready',
-                a11yVisual: 'ready',
-                  summary: 'ready',
-          },
-        badge: 'New',
-          documentation: 'ready',
-            figmaStatus: 'ready',
-              mobileAdaptive: 'notAvailable',
-                responsive: 'ready',
+            },
+            ios: {
+              name: 'IconButtonFloating',
+              visual: {
+                svg: <IconButtonFloating,
+                  alias: ['Glyph button', 'Floating action button', 'FAB', 'Quick create'],
+                description:
+                  'IconButtonFloating provides an action that floats over the content and remains in place when scrolled.',
+                category: ['Actions'],
+                status: {
+                  documentation: 'ready',
+                  figmaStatus: 'ready',
                   status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Tabs',
-    platform: {
-    web: {
-      name: 'Tabs',
-        visual: {
-        svg: <Tabs />,
-        },
-      description: 'Tabs may be used navigate between multiple URLs.',
-        category: ['Navigation'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'Tabs',
-        visual: {
-        svg: <Tabs />,
-        },
-      description: 'Tabs may be used navigate between multiple URLs.',
-        category: ['Navigation'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'Tabs',
-        visual: {
-        svg: <Tabs />,
-        },
-      description: 'Tabs may be used navigate between multiple URLs.',
-        category: ['Navigation'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Tag',
-    platform: {
-    web: {
-      name: 'Tag',
-        visual: {
-        svg: <Tag />,
-        },
-      alias: ['Chip', 'Pill', 'Filter Tag'],
-        description: 'Tags are objects that hold text and have a delete icon to remove them.',
-          category: ['Navigation'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'partial',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'TagData',
-    platform: {
-    web: {
-      name: 'TagData',
-        visual: {
-        svg: <TagData />,
-        },
-      alias: ['Chip', 'Pill', 'Filter', 'Tag'],
-        description:
-      'TagData can be used to select multiple categories to compare with each other in a graph or chart view.',
-        category: ['Data'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-          },
-        badge: 'Pilot',
-          documentation: 'ready',
-            figmaStatus: 'ready',
-              responsive: 'ready',
-                status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'TapArea',
-    platform: {
-    web: {
-      name: 'TapArea',
-        visual: {
-        svg: <TapArea />,
-        },
-      alias: ['Touchable'],
-        description:
-      'TapArea allows components to be clickable and touchable in an accessible way.',
-        category: ['Building blocks'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Text',
-    platform: {
-    web: {
-      name: 'Text',
-        visual: {
-        svg: <Text />,
-        },
-      alias: ['Copy, Subtext, Caption, Footer, Helper text'],
-        description: 'Text is used for all text on the page.',
-          category: ['Text'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-                knownIssues: [
-                  {
-                    title: 'Line clamp truncation',
-                    description:
-                      'When the "lineClamp" prop is set to 1, text with long strings of characters might be truncated incorrectly',
-                    codesandboxUrl:
-                      'https://codesandbox.io/s/development-mode-forked-ngkj3c?file=/example.js',
+                },
+                id: 'Image',
+                platform:
+                  web,
+                name: 'Image',
+                visual: {
+                  svg: <Image,
+                    alias: ['<img>', 'Picture', 'Photo'],
+                  description: 'Image is used to represent images.',
+                  category: ['Pins and imagery'],
+                  status: {
+                    accessible: {
+                      summary: 'ready',
+                      a11yVisual: 'ready',
+                      a11yScreenreader: 'ready',
+                      a11yNavigation: 'ready',
+                      a11yComprehension: 'ready',
+                    },
+                    documentation: 'partial',
+                    responsive: 'ready',
+                    status: 'ready',
                   },
-                ],
-        },
-    },
-    android: {
-      name: 'Text',
-        visual: {
-        svg: <Text />,
-        },
-      alias: ['Copy, Subtext, Caption, Footer, Helper text'],
-        description:
-      'Text component is used for all representations of text on a surface. Text is based on Android typography guidelines.',
-        category: ['Text'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'Text',
-        visual: {
-        svg: <Text />,
-        },
-      alias: ['Copy, Subtext, Caption, Footer, Helper text'],
-        description:
-      'Text component is used for all representations of text on a surface. Text is based on iOS typography guidelines.',
-        category: ['Text'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'TextArea',
-    platform: {
-    web: {
-      name: 'TextArea',
-        visual: {
-        svg: <TextArea />,
-        },
-      alias: ['Multi-line Input'],
-        description: 'TextArea allows for multi-line input.',
-          category: ['Fields and forms'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'TextArea',
-        visual: {
-        svg: <TextArea />,
-        },
-      alias: ['Multi-line Input'],
-        description: 'TextArea allows for multi-line input.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'TextArea',
-        visual: {
-        svg: <TextArea />,
-        },
-      alias: ['Multi-line Input'],
-        description: 'TextArea allows for multi-line input.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'TextField',
-    platform: {
-    web: {
-      name: 'TextField',
-        visual: {
-        svg: <TextField />,
-        },
-      alias: ['Text Input'],
-        description: 'TextField allows for multiple types of text input.',
-          category: ['Fields and forms'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'TextField',
-        visual: {
-        svg: <TextField />,
-        },
-      alias: ['Text Input'],
-        description: 'TextField allows for multiple types of text input.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'TextField',
-        visual: {
-        svg: <TextField />,
-        },
-      alias: ['Text Input'],
-        description: 'TextField allows for multiple types of text input.',
-          category: ['Fields and forms'],
-            status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'TileData',
-    platform: {
-    web: {
-      name: 'TileData',
-        visual: {
-        svg: <TileData />,
-        },
-      alias: ['Card Grid', 'Item Featured', 'Choice Tile', 'Selection Card', 'Visual Picker'],
-        description:
-      'TileData can be used to select multiple categories to compare with each other in a graph or chart view.',
-        category: ['Data'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        badge: 'Pilot',
-          documentation: 'ready',
-            figmaStatus: 'ready',
-              responsive: 'ready',
-                status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Toast',
-    platform: {
-    web: {
-      name: 'Toast',
-        visual: {
-        svg: <Toast />,
-        },
-      alias: ['Snackbar'],
-        description:
-      'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
-        category: ['Messaging'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'notAvailable',
-                a11yNavigation: 'notAvailable',
-                  a11yComprehension: 'partial',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-    android: {
-      name: 'Toast',
-        visual: {
-        svg: <Toast />,
-        },
-      alias: ['Snackbar'],
-        description:
-      'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
-        category: ['Messaging'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'ready',
-        },
-    },
-    ios: {
-      name: 'Toast',
-        visual: {
-        svg: <Toast />,
-        },
-      alias: ['Snackbar'],
-        description:
-      'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
-        category: ['Messaging'],
-          status: {
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            status: 'planned',
-        },
-    },
-  },
-},
-{
-  id: 'Tooltip',
-    platform: {
-    web: {
-      name: 'Tooltip',
-        visual: {
-        svg: <Tooltip />,
-        },
-      alias: ['Info Tip'],
-        description:
-      'Tooltip is a floating text label that succinctly describes the function of an interactive element.',
-        category: ['Help and guidance'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-                knownIssues: [
-                  {
-                    title: 'Incorrect positioning and dimensions',
-                    description:
-                      'Tooltip is built on top of Popover. Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
-                    internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
-                  },
-                ],
-        },
-    },
-  },
-},
-{
-  id: 'Upsell',
-    platform: {
-    web: {
-      name: 'Upsell',
-        visual: {
-        svg: <Upsell />,
-        },
-      alias: ['Banner', 'Offer Banner', 'CTA Banner'],
-        description:
-      'Upsells are banners that display short messages that focus on promoting an action or upgrading something the user already has.',
-        category: ['Messaging'],
-          status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'ready',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'useFocusVisible',
-    platform: {
-    web: {
-      name: 'useFocusVisible',
-        visual: {
-        svg: <HookFocusVisible />,
-        },
-      description: 'useFocusVisible manages focus interactions on the page.',
-        category: ['Utilities'],
-          path: '/web/utilities/usefocusvisible',
-            status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'notAvailable',
-                a11yNavigation: 'notAvailable',
-                  a11yComprehension: 'notAvailable',
-          },
-        documentation: 'ready',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'useReducedMotion',
-    platform: {
-    web: {
-      name: 'useReducedMotion',
-        visual: {
-        svg: <HookReducedMotion />,
-        },
-      description:
-      'useReducedMotion allows a user to request that the system minimize the amount of non-essential motion.',
-        category: ['Utilities'],
-          path: '/web/utilities/usereducedmotion',
-            alias: ['prefers-reduced-motion'],
-              status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'notAvailable',
-                a11yNavigation: 'notAvailable',
-                  a11yComprehension: 'notAvailable',
-          },
-        documentation: 'ready',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Video',
-    platform: {
-    web: {
-      name: 'Video',
-        visual: {
-        svg: <Video />,
-        },
-      description: 'Video is used for media layout.',
-        category: ['Pins and imagery'],
-          status: {
-        accessible: {
-          summary: 'partial',
-            a11yVisual: 'notAvailable',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          figmaStatus: 'ready',
-            responsive: 'ready',
-              status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'WashAnimated',
-    platform: {
-    web: {
-      name: 'WashAnimated',
-        visual: {
-        svg: <WashAnimated />,
-        },
-      alias: ['Card', 'Panel', 'Tile'],
-        description: 'WashAnimated is used to highlight content in grids.',
-          category: ['Structure'],
-            status: {
-        accessible: {
-          summary: 'ready',
-            a11yVisual: 'ready',
-              a11yScreenreader: 'ready',
-                a11yNavigation: 'ready',
-                  a11yComprehension: 'ready',
-          },
-        documentation: 'partial',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
-{
-  id: 'Z-Index Classes',
-    platform: {
-    web: {
-      name: 'Z-Index Classes',
-        visual: {
-        svg: <ZIndexClasses />,
-        },
-      description:
-      'FixedZIndex and CompositeZIndex are utility classes that generate z-indices for Gestalt components.',
-        path: '/web/zindex_classes',
-          category: ['Building blocks'],
-            status: {
-        documentation: 'ready',
-          responsive: 'ready',
-            status: 'ready',
-        },
-    },
-  },
-},
+                  id: 'Image',
+                  platform: {
+                    web: {
+                      name: 'Image',
+                      visual: {
+                        svg: <Image,
+                          alias: ['<img>', 'Picture', 'Photo'],
+                        description: 'Image is used to represent images.',
+                        category: ['Pins and imagery'],
+                        status: {
+                          accessible: {
+                            summary: 'ready',
+                            a11yVisual: 'ready',
+                            a11yScreenreader: 'ready',
+                            a11yNavigation: 'ready',
+                            a11yComprehension: 'ready',
+                          },
+                        },
+                        id: 'Label',
+                        platform: {
+                          web: {
+                            name: 'Label',
+                            visual: {
+                              svg: <GestaltLabel,
+                                alias: ['Field Label', 'Form Label'],
+                              description: 'Label is used to connect a label with a form component in an accessible way.',
+                              category: ['Fields and forms'],
+                              status: {
+                                accessible: {
+                                  summary: 'ready',
+                                  a11yVisual: 'ready',
+                                  a11yScreenreader: 'ready',
+                                  a11yNavigation: 'ready',
+                                  a11yComprehension: 'ready',
+                                },
+                                documentation: 'partial',
+                                figmaStatus: 'notAvailable',
+                                responsive: 'ready',
+                                status: 'ready',
+                              },
+                              id: 'Layer',
+                              platform: {
+                                web: {
+                                  name: 'Layer',
+                                  visual: {
+                                    svg: <Layer,
+                                      hasDarkBackground: true,
+                                    alias: ['Portal', 'Overlay'],
+                                    description: 'Layers allow you to render children outside the DOM hierarchy of the parent.',
+                                    category: ['Building blocks'],
+                                    status: {
+                                      accessible: {
+                                        summary: 'ready',
+                                        a11yVisual: 'ready',
+                                        a11yScreenreader: 'ready',
+                                        a11yNavigation: 'ready',
+                                        a11yComprehension: 'ready',
+                                      },
+                                      documentation: 'partial',
+                                      responsive: 'ready',
+                                      status: 'ready',
+                                    },
+                                    id: 'Letterbox',
+                                    platform: {
+                                      web: {
+                                        name: 'Letterbox',
+                                        visual: {
+                                          svg: <Letterbox,
+                                            description:
+                                          'Letterboxes are useful if you have some source media which is larger than the area you want to display it in.',
+                                          category: ['Building blocks'],
+                                          status: {
+                                            accessible: {
+                                              summary: 'ready',
+                                              a11yVisual: 'ready',
+                                              a11yScreenreader: 'ready',
+                                              a11yNavigation: 'ready',
+                                              a11yComprehension: 'ready',
+                                            },
+                                            documentation: 'partial',
+                                            responsive: 'ready',
+                                            status: 'ready',
+                                          },
+                                          id: 'Link',
+                                          platform: {
+                                            web: {
+                                              name: 'Link',
+                                              visual: {
+                                                svg: <GestaltLink,
+                                                  alias: ['Anchor', '<a>', 'Text Link', 'Hyperlink'],
+                                                description: 'Link allow users to click their way from page to page.',
+                                                category: ['Actions'],
+                                                status: {
+                                                  accessible: {
+                                                    summary: 'ready',
+                                                    a11yVisual: 'ready',
+                                                    a11yScreenreader: 'ready',
+                                                    a11yNavigation: 'ready',
+                                                    a11yComprehension: 'ready',
+                                                  },
+                                                  documentation: 'ready',
+                                                  responsive: 'ready',
+                                                  status: 'ready',
+                                                },
+                                                id: 'List',
+                                                platform: {
+                                                  web: {
+                                                    name: 'List',
+                                                    visual: {
+                                                      svg: <List,
+                                                        alias: ['Unordered List', 'Ordered list', '<ol>', '<ul>', '<li>'],
+                                                      description:
+                                                        'List allows users to view individual, but related, text items grouped together.',
+                                                      category: ['Structure'],
+                                                      status: {
+                                                        accessible: {
+                                                          summary: 'ready',
+                                                          a11yVisual: 'ready',
+                                                          a11yScreenreader: 'ready',
+                                                          a11yNavigation: 'ready',
+                                                          a11yComprehension: 'ready',
+                                                        },
+                                                        documentation: 'ready',
+                                                        figmaStatus: 'notAvailable',
+                                                        responsive: 'ready',
+                                                        status: 'ready',
+                                                      },
+                                                      id: 'ListAction',
+                                                      platform: {
+                                                        android: {
+                                                          name: 'ListAction',
+                                                          visual: {
+                                                            svg: <ListAction,
+                                                              alias: ['Table', 'List', 'List item', 'Menu'],
+                                                            description:
+                                                              'ListAction is a continuous vertical group of list items that can include text, icons, images and actions.',
+                                                            category: ['Structure'],
+                                                            status: {
+                                                              documentation: 'ready',
+                                                              figmaStatus: 'ready',
+                                                              status: 'planned',
+                                                            },
+                                                            ios: {
+                                                              name: 'ListAction',
+                                                              visual: {
+                                                                svg: <ListAction,
+                                                                  alias: ['Table', 'List', 'List item', 'Menu'],
+                                                                description:
+                                                                  'ListAction is a continuous vertical group of list items that can include text, icons, images and actions.',
+                                                                category: ['Structure'],
+                                                                status: {
+                                                                  documentation: 'ready',
+                                                                  figmaStatus: 'ready',
+                                                                  status: 'planned',
+                                                                },
+                                                                id: 'Mask',
+                                                                platform: {
+                                                                  web: {
+                                                                    name: 'Mask',
+                                                                    visual: {
+                                                                      svg: <Mask,
+                                                                        description: 'Mask is used to display content in a specific shape.',
+                                                                      category: ['Building blocks'],
+                                                                      status: {
+                                                                        documentation: 'partial',
+                                                                        responsive: 'ready',
+                                                                        status: 'ready',
+                                                                      },
+                                                                      id: 'Masonry',
+                                                                      platform: {
+                                                                        web: {
+                                                                          name: 'Masonry',
+                                                                          visual: {
+                                                                            svg: <Masonry,
+                                                                              alias: ['Grid', 'Image List'],
+                                                                            description:
+                                                                              'Masonry creates a deterministic grid layout, positioning items based on available vertical space.',
+                                                                            category: ['Pins and imagery'],
+                                                                            status: {
+                                                                              accessible: {
+                                                                                summary: 'ready',
+                                                                                a11yVisual: 'ready',
+                                                                                a11yScreenreader: 'ready',
+                                                                                a11yNavigation: 'ready',
+                                                                                a11yComprehension: 'ready',
+                                                                              },
+                                                                              documentation: 'partial',
+                                                                              figmaStatus: 'ready',
+                                                                              responsive: 'ready',
+                                                                              status: 'ready',
+                                                                            },
+                                                                            id: 'Modal',
+                                                                            platform: {
+                                                                              web: {
+                                                                                name: 'Modal',
+                                                                                visual: {
+                                                                                  svg: <Modal,
+                                                                                    alias: ['Dialog', 'Prompt'],
+                                                                                  description: 'Modal displays content that requires user interaction.',
+                                                                                  category: ['Overlays'],
+                                                                                  status: {
+                                                                                    accessible: {
+                                                                                      summary: 'partial',
+                                                                                      a11yVisual: 'ready',
+                                                                                      a11yScreenreader: 'partial',
+                                                                                      a11yNavigation: 'partial',
+                                                                                      a11yComprehension: 'ready',
+                                                                                    },
+                                                                                    documentation: 'ready',
+                                                                                    figmaStatus: 'ready',
+                                                                                    mobileAdaptive: 'ready',
+                                                                                    responsive: 'ready',
+                                                                                    status: 'ready',
+                                                                                  },
+                                                                                  id: 'ModalAlert',
+                                                                                  platform: {
+                                                                                    web: {
+                                                                                      name: 'ModalAlert',
+                                                                                      visual: {
+                                                                                        svg: <ModalAlert,
+                                                                                          alias: ['AlertDialog', 'Prompt'],
+                                                                                        description:
+                                                                                          'ModalAlert is used to alert a user of an issue, or to request confirmation after a user-triggered action.',
+                                                                                        category: ['Overlays'],
+                                                                                        status: {
+                                                                                          accessible: {
+                                                                                            summary: 'partial',
+                                                                                            a11yVisual: 'ready',
+                                                                                            a11yScreenreader: 'partial',
+                                                                                            a11yNavigation: 'partial',
+                                                                                            a11yComprehension: 'ready',
+                                                                                          },
+                                                                                          documentation: 'ready',
+                                                                                          figmaStatus: 'ready',
+                                                                                          responsive: 'ready',
+                                                                                          status: 'ready',
+                                                                                        },
+                                                                                        id: 'Module',
+                                                                                        platform: {
+                                                                                          web: {
+                                                                                            name: 'Module',
+                                                                                            visual: {
+                                                                                              svg: <Module,
+                                                                                                alias: [
+                                                                                                  'Accordion',
+                                                                                                  'Section',
+                                                                                                  'Expandable Section',
+                                                                                                  'Disclosure',
+                                                                                                  'Stack View',
+                                                                                                  'Expander',
+        ],
+                                                                                              description: 'Module is a container that holds content about one subject.',
+                                                                                              category: ['Structure'],
+                                                                                              status: {
+                                                                                                accessible: {
+                                                                                                  summary: 'ready',
+                                                                                                  a11yVisual: 'ready',
+                                                                                                  a11yScreenreader: 'ready',
+                                                                                                  a11yNavigation: 'ready',
+                                                                                                  a11yComprehension: 'ready',
+                                                                                                },
+                                                                                                documentation: 'partial',
+                                                                                                figmaStatus: 'ready',
+                                                                                                responsive: 'ready',
+                                                                                                status: 'ready',
+                                                                                              },
+                                                                                              id: 'NumberField',
+                                                                                              platform: {
+                                                                                                web: {
+                                                                                                  name: 'NumberField',
+                                                                                                  visual: {
+                                                                                                    svg: <NumberField,
+                                                                                                      alias: ['Number Input', 'Spin Box'],
+                                                                                                    description: 'NumberField allows for numerical input.',
+                                                                                                    category: ['Fields and forms'],
+                                                                                                    status: {
+                                                                                                      accessible: {
+                                                                                                        summary: 'ready',
+                                                                                                        a11yVisual: 'ready',
+                                                                                                        a11yScreenreader: 'ready',
+                                                                                                        a11yNavigation: 'ready',
+                                                                                                        a11yComprehension: 'ready',
+                                                                                                      },
+                                                                                                      documentation: 'ready',
+                                                                                                      figmaStatus: 'ready',
+                                                                                                      responsive: 'ready',
+                                                                                                      status: 'ready',
+                                                                                                    },
+                                                                                                    id: 'OverlayPanel',
+                                                                                                    platform: {
+                                                                                                      web: {
+                                                                                                        name: 'OverlayPanel',
+                                                                                                        visual: {
+                                                                                                          svg: <OverlayPanel,
+                                                                                                            alias: ['Drawer', 'Panel', 'Tray', 'Sheet'],
+                                                                                                          description:
+                                                                                                            'OverlayPanels are surfaces that allow users to view optional information or complete sub-tasks in a workflow while keeping the context of the current page.',
+                                                                                                          category: ['Overlays'],
+                                                                                                          status: {
+                                                                                                            accessible: {
+                                                                                                              summary: 'ready',
+                                                                                                              a11yVisual: 'ready',
+                                                                                                              a11yScreenreader: 'ready',
+                                                                                                              a11yNavigation: 'ready',
+                                                                                                              a11yComprehension: 'ready',
+                                                                                                            },
+                                                                                                            documentation: 'ready',
+                                                                                                            figmaStatus: 'ready',
+                                                                                                            responsive: 'ready',
+                                                                                                            status: 'ready',
+                                                                                                          },
+                                                                                                          id: 'PageHeader',
+                                                                                                          platform: {
+                                                                                                            web: {
+                                                                                                              name: 'PageHeader',
+                                                                                                              visual: {
+                                                                                                                svg: <PageHeader,
+                                                                                                                  description:
+          'PageHeader is used to indicate the title of the current page, as well as optional actions.',
+                                                                                                                category: ['Structure'],
+                                                                                                                status: {
+                                                                                                                  accessible: {
+                                                                                                                    summary: 'ready',
+                                                                                                                    a11yVisual: 'ready',
+                                                                                                                    a11yScreenreader: 'ready',
+                                                                                                                    a11yNavigation: 'ready',
+                                                                                                                    a11yComprehension: 'ready',
+                                                                                                                  },
+                                                                                                                  documentation: 'ready',
+                                                                                                                  figmaStatus: 'ready',
+                                                                                                                  responsive: 'ready',
+                                                                                                                  status: 'ready',
+                                                                                                                },
+                                                                                                                id: 'Pins',
+                                                                                                                platform: {
+                                                                                                                  figma: {
+                                                                                                                    name: 'Pins',
+                                                                                                                    visual: {
+                                                                                                                      svg: <svg,
+                                                                                                                        category: [],
+                                                                                                                      status: {
+                                                                                                                        documentation: 'notAvailable',
+                                                                                                                        status: 'ready',
+                                                                                                                      },
+                                                                                                                      id: 'Pog',
+                                                                                                                      platform: {
+                                                                                                                        web: {
+                                                                                                                          name: 'Pog',
+                                                                                                                          visual: {
+                                                                                                                            svg: <Pog,
+                                                                                                                              description:
+          'Pog is a lower-level functional component to show the active, hovered, and focused states of IconButton.',
+                                                                                                                            category: ['Building blocks'],
+                                                                                                                            status: {
+                                                                                                                              accessible: {
+                                                                                                                                summary: 'ready',
+                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                              },
+                                                                                                                              documentation: 'partial',
+                                                                                                                              responsive: 'ready',
+                                                                                                                              status: 'ready',
+                                                                                                                            },
+                                                                                                                            id: 'Popover',
+                                                                                                                            platform: {
+                                                                                                                              web: {
+                                                                                                                                name: 'Popover',
+                                                                                                                                visual: {
+                                                                                                                                  svg: <Popover,
+                                                                                                                                    alias: ['Flyout'],
+                                                                                                                                  description:
+                                                                                                                                    'Popover is a floating view that contains a task related to the content on screen.',
+                                                                                                                                  category: ['Overlays'],
+                                                                                                                                  status: {
+                                                                                                                                    accessible: {
+                                                                                                                                      summary: 'partial',
+                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                      a11yScreenreader: 'partial',
+                                                                                                                                      a11yNavigation: 'partial',
+                                                                                                                                      a11yComprehension: 'ready',
+                                                                                                                                    },
+                                                                                                                                    documentation: 'ready',
+                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                    mobileAdaptive: 'planned',
+                                                                                                                                    responsive: 'ready',
+                                                                                                                                    status: 'ready',
+                                                                                                                                    knownIssues: [
+                                                                                                                                      {
+                                                                                                                                        title: 'Incorrect positioning and dimensions',
+                                                                                                                                        description:
+                                                                                                                                          'Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
+                                                                                                                                        internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
+                                                                                                                                      },
+                                                                                                                                      id: 'PopoverEducational',
+                                                                                                                                      platform: {
+                                                                                                                                        web: {
+                                                                                                                                          name: 'PopoverEducational',
+                                                                                                                                          visual: {
+                                                                                                                                            svg: <PopoverEducational,
+                                                                                                                                              description:
+          'PopoverEducational is a floating container that introduces users to elements on the screen. Used for education or onboarding experiences.',
+                                                                                                                                            category: ['Help and guidance'],
+                                                                                                                                            status: {
+                                                                                                                                              accessible: {
+                                                                                                                                                summary: 'partial',
+                                                                                                                                                a11yVisual: 'partial',
+                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                              },
+                                                                                                                                              documentation: 'ready',
+                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                              responsive: 'ready',
+                                                                                                                                              status: 'ready',
+                                                                                                                                              knownIssues: [
+                                                                                                                                                {
+                                                                                                                                                  title: 'Caret misalignment',
+                                                                                                                                                  description:
+                                                                                                                                                    "PopoverEducational's caret might appear misaligned when positioned below the element of reference.",
+                                                                                                                                                  internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                  title: 'Incorrect positioning and dimensions',
+                                                                                                                                                  description:
+                                                                                                                                                    'PopoverEducational is built on top of Popover. Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
+                                                                                                                                                  internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
+                                                                                                                                                },
+                                                                                                                                                id: 'ProfileRep',
+                                                                                                                                                platform: {
+                                                                                                                                                  figma: {
+                                                                                                                                                    name: 'ProfileRep',
+                                                                                                                                                    visual: {
+                                                                                                                                                      svg: <svg,
+                                                                                                                                                        category: [],
+                                                                                                                                                      status: {
+                                                                                                                                                        documentation: 'notAvailable',
+                                                                                                                                                        status: 'ready',
+                                                                                                                                                      },
+                                                                                                                                                      id: 'Pulsar',
+                                                                                                                                                      platform: {
+                                                                                                                                                        web: {
+                                                                                                                                                          name: 'Pulsar',
+                                                                                                                                                          visual: {
+                                                                                                                                                            svg: <Pulsar,
+                                                                                                                                                              alias: ['Activity Indicator', 'Circular Indicator', 'Ring'],
+                                                                                                                                                            description:
+                                                                                                                                                              'Pulsars bring focus to a specific element on the screen and act like training wheels to guide people towards the normal way to perform that action.',
+                                                                                                                                                            category: ['Loading'],
+                                                                                                                                                            status: {
+                                                                                                                                                              accessible: {
+                                                                                                                                                                summary: 'ready',
+                                                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                              },
+                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                              figmaStatus: 'partial',
+                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                              status: 'ready',
+                                                                                                                                                            },
+                                                                                                                                                            id: 'RadioGroup',
+                                                                                                                                                            platform: {
+                                                                                                                                                              web: {
+                                                                                                                                                                name: 'RadioGroup',
+                                                                                                                                                                visual: {
+                                                                                                                                                                  svg: <RadioGroup,
+                                                                                                                                                                    alias: ['Single Select', 'Option Buttons', 'Radio Inputs'],
+                                                                                                                                                                  description: 'Use RadioGroup when you have a few options that a user can choose from.',
+                                                                                                                                                                  category: ['Controls'],
+                                                                                                                                                                  status: {
+                                                                                                                                                                    accessible: {
+                                                                                                                                                                      summary: 'ready',
+                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                      a11yScreenreader: 'ready',
+                                                                                                                                                                      a11yNavigation: 'ready',
+                                                                                                                                                                      a11yComprehension: 'ready',
+                                                                                                                                                                    },
+                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                  },
+                                                                                                                                                                  id: 'ScrollBoundaryContainer',
+                                                                                                                                                                  platform: {
+                                                                                                                                                                    web: {
+                                                                                                                                                                      name: 'ScrollBoundaryContainer',
+                                                                                                                                                                      visual: {
+                                                                                                                                                                        svg: <ScrollBoundaryContainer,
+                                                                                                                                                                          alias: ['ScrollableContainer'],
+                                                                                                                                                                        path: '/web/utilities/scrollboundarycontainer',
+                                                                                                                                                                        description:
+                                                                                                                                                                          'ScrollBoundaryContainer is needed for proper positioning when Popover is anchored to an element that is located within a scrolling container.',
+                                                                                                                                                                        category: ['Building blocks'],
+                                                                                                                                                                        status: {
+                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                          responsive: 'ready',
+                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                        },
+                                                                                                                                                                        id: 'SearchField',
+                                                                                                                                                                        platform: {
+                                                                                                                                                                          web: {
+                                                                                                                                                                            name: 'SearchField',
+                                                                                                                                                                            visual: {
+                                                                                                                                                                              svg: <SearchField,
+                                                                                                                                                                                alias: ['Search Box', 'Search Bar'],
+                                                                                                                                                                              description: 'SearchField allows users to search for free-form content.',
+                                                                                                                                                                              category: ['Fields and forms'],
+                                                                                                                                                                              status: {
+                                                                                                                                                                                accessible: {
+                                                                                                                                                                                  summary: 'ready',
+                                                                                                                                                                                  a11yVisual: 'ready',
+                                                                                                                                                                                  a11yScreenreader: 'ready',
+                                                                                                                                                                                  a11yNavigation: 'ready',
+                                                                                                                                                                                  a11yComprehension: 'ready',
+                                                                                                                                                                                },
+                                                                                                                                                                                documentation: 'ready',
+                                                                                                                                                                                figmaStatus: 'ready',
+                                                                                                                                                                                responsive: 'ready',
+                                                                                                                                                                                status: 'ready',
+                                                                                                                                                                              },
+                                                                                                                                                                              android: {
+                                                                                                                                                                                name: 'SearchField',
+                                                                                                                                                                                visual: {
+                                                                                                                                                                                  svg: <SearchField,
+                                                                                                                                                                                    alias: ['Search Box', 'Search Bar'],
+                                                                                                                                                                                  description: 'SearchField allows users to search for free-form content.',
+                                                                                                                                                                                  category: ['Fields and forms'],
+                                                                                                                                                                                  status: {
+                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                  },
+                                                                                                                                                                                  ios: {
+                                                                                                                                                                                    name: 'SearchField',
+                                                                                                                                                                                    visual: {
+                                                                                                                                                                                      svg: <SearchField,
+                                                                                                                                                                                        alias: ['Search Box', 'Search Bar'],
+                                                                                                                                                                                      description: 'SearchField allows users to search for free-form content.',
+                                                                                                                                                                                      category: ['Fields and forms'],
+                                                                                                                                                                                      status: {
+                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                        status: 'planned',
+                                                                                                                                                                                      },
+                                                                                                                                                                                      id: 'SegmentedControl',
+                                                                                                                                                                                      platform: {
+                                                                                                                                                                                        web: {
+                                                                                                                                                                                          name: 'SegmentedControl',
+                                                                                                                                                                                          visual: {
+                                                                                                                                                                                            svg: <SegmentedControl,
+                                                                                                                                                                                              alias: ['Toggle Group'],
+                                                                                                                                                                                            description: 'SegmentedControl may be used to group multiple selections.',
+                                                                                                                                                                                            category: ['Navigation'],
+                                                                                                                                                                                            status: {
+                                                                                                                                                                                              accessible: {
+                                                                                                                                                                                                summary: 'partial',
+                                                                                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                                                                                a11yScreenreader: 'partial',
+                                                                                                                                                                                                a11yNavigation: 'partial',
+                                                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                                                              },
+                                                                                                                                                                                              documentation: 'partial',
+                                                                                                                                                                                              figmaStatus: 'partial',
+                                                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                                                              status: 'ready',
+                                                                                                                                                                                            },
+                                                                                                                                                                                            id: 'SelectList',
+                                                                                                                                                                                            platform: {
+                                                                                                                                                                                              web: {
+                                                                                                                                                                                                name: 'SelectList',
+                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                  svg: <SelectList,
+                                                                                                                                                                                                    alias: ['Picklist', 'Picker'],
+                                                                                                                                                                                                  description:
+                                                                                                                                                                                                    'SelectList displays a list of actions or options using the browser’s native select.',
+                                                                                                                                                                                                  category: ['Fields and forms'],
+                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                      summary: 'partial',
+                                                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                                                      a11yScreenreader: 'partial',
+                                                                                                                                                                                                      a11yNavigation: 'ready',
+                                                                                                                                                                                                      a11yComprehension: 'ready',
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                  },
+                                                                                                                                                                                                  id: 'Sheet',
+                                                                                                                                                                                                  platform: {
+                                                                                                                                                                                                    web: {
+                                                                                                                                                                                                      name: 'SheetMobile',
+                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                        svg: <SheetMobile,
+                                                                                                                                                                                                          alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
+                                                                                                                                                                                                        description:
+                                                                                                                                                                                                          'SheetMobile is a mobile only component. SheetMobile is a supplementary container that sits on top of the screen’s primary content.',
+                                                                                                                                                                                                        category: ['Building blocks'],
+                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                          accessible: {
+                                                                                                                                                                                                            summary: 'ready',
+                                                                                                                                                                                                            a11yVisual: 'ready',
+                                                                                                                                                                                                            a11yScreenreader: 'ready',
+                                                                                                                                                                                                            a11yNavigation: 'ready',
+                                                                                                                                                                                                            a11yComprehension: 'ready',
+                                                                                                                                                                                                          },
+                                                                                                                                                                                                          badge: 'Pilot',
+                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        android: {
+                                                                                                                                                                                                          name: 'Sheet',
+                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                            svg: <SheetMobile,
+                                                                                                                                                                                                              alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
+                                                                                                                                                                                                            description:
+                                                                                                                                                                                                              'Sheets are bottom-anchored overlays that that allow the user to easily return to the previous screen. They are meant for temporary focused tasks. Sheets are the mobile equivalent of the modal or overlay on web.',
+                                                                                                                                                                                                            category: [],
+                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                                                                                              status: 'planned',
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            ios: {
+                                                                                                                                                                                                              name: 'Sheet',
+                                                                                                                                                                                                              visual: {
+                                                                                                                                                                                                                svg: <SheetMobile,
+                                                                                                                                                                                                                  alias: ['Panel', 'Dialog', 'Drawer', 'Tray'],
+                                                                                                                                                                                                                description:
+                                                                                                                                                                                                                  'Sheets are bottom-anchored overlays that that allow the user to easily return to the previous screen. They are meant for temporary focused tasks. Sheets are the mobile equivalent of the modal or overlay on web.',
+                                                                                                                                                                                                                category: [],
+                                                                                                                                                                                                                status: {
+                                                                                                                                                                                                                  documentation: 'ready',
+                                                                                                                                                                                                                  figmaStatus: 'ready',
+                                                                                                                                                                                                                  status: 'planned',
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                id: 'SideNavigation',
+                                                                                                                                                                                                                platform: {
+                                                                                                                                                                                                                  web: {
+                                                                                                                                                                                                                    name: 'SideNavigation',
+                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                      svg: <SideNavigation,
+                                                                                                                                                                                                                        alias: ['Legend'],
+                                                                                                                                                                                                                      description:
+                                                                                                                                                                                                                        'SideNavigation is start-aligned and arranged vertically. It is used to navigate between page urls or sections when you have too many menu items to fit in horizontal Tabs',
+                                                                                                                                                                                                                      category: ['Navigation'],
+                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                        accessible: {
+                                                                                                                                                                                                                          summary: 'ready',
+                                                                                                                                                                                                                          a11yVisual: 'ready',
+                                                                                                                                                                                                                          a11yScreenreader: 'ready',
+                                                                                                                                                                                                                          a11yNavigation: 'ready',
+                                                                                                                                                                                                                          a11yComprehension: 'ready',
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                                                        mobileAdaptive: 'ready',
+                                                                                                                                                                                                                        responsive: 'ready',
+                                                                                                                                                                                                                        status: 'ready',
+                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                      id: 'SlimBanner',
+                                                                                                                                                                                                                      platform: {
+                                                                                                                                                                                                                        web: {
+                                                                                                                                                                                                                          name: 'SlimBanner',
+                                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                                            svg: <SlimBanner,
+                                                                                                                                                                                                                              alias: ['Notice', 'Note', 'Scoped Notification'],
+                                                                                                                                                                                                                            description:
+                                                                                                                                                                                                                              'SlimBanner conveys brief information related to a specific section of a page.',
+                                                                                                                                                                                                                            category: ['Messaging'],
+                                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                                              accessible: {
+                                                                                                                                                                                                                                summary: 'ready',
+                                                                                                                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                                                                                              status: 'ready',
+                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                            id: 'Spinner',
+                                                                                                                                                                                                                            platform: {
+                                                                                                                                                                                                                              web: {
+                                                                                                                                                                                                                                name: 'Spinner',
+                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                  svg: <Spinner,
+                                                                                                                                                                                                                                    alias: [
+                                                                                                                                                                                                                                      'Refresh Indicator',
+                                                                                                                                                                                                                                      'Refresh Control',
+                                                                                                                                                                                                                                      'Loader',
+                                                                                                                                                                                                                                      'Circular Loader',
+                                                                                                                                                                                                                                      'Loading Animation',
+        ],
+                                                                                                                                                                                                                                  description:
+                                                                                                                                                                                                                                    "Spinner helps indicate that a surface's content or portion of content is currently loading.",
+                                                                                                                                                                                                                                  category: ['Loading'],
+                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                                                      summary: 'ready',
+                                                                                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                                                                                      a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                      a11yNavigation: 'ready',
+                                                                                                                                                                                                                                      a11yComprehension: 'ready',
+                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                  id: 'Status',
+                                                                                                                                                                                                                                  platform: {
+                                                                                                                                                                                                                                    web: {
+                                                                                                                                                                                                                                      name: 'Status',
+                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                        svg: <Status,
+                                                                                                                                                                                                                                          alias: ['Status Indicator', 'Signal', 'System Feedback'],
+                                                                                                                                                                                                                                        description: "Status is a graphic indicator of an element's state.",
+                                                                                                                                                                                                                                        category: ['Indicators'],
+                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                          accessible: {
+                                                                                                                                                                                                                                            summary: 'ready',
+                                                                                                                                                                                                                                            a11yVisual: 'ready',
+                                                                                                                                                                                                                                            a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                            a11yNavigation: 'ready',
+                                                                                                                                                                                                                                            a11yComprehension: 'ready',
+                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                                                          figmaStatus: 'ready',
+                                                                                                                                                                                                                                          responsive: 'ready',
+                                                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                        id: 'Sticky',
+                                                                                                                                                                                                                                        platform: {
+                                                                                                                                                                                                                                          web: {
+                                                                                                                                                                                                                                            name: 'Sticky',
+                                                                                                                                                                                                                                            visual: {
+                                                                                                                                                                                                                                              svg: <Sticky,
+                                                                                                                                                                                                                                                description: 'Sticky allows an element to become fixed when it reaches a threshold.',
+                                                                                                                                                                                                                                              category: ['Building blocks'],
+                                                                                                                                                                                                                                              status: {
+                                                                                                                                                                                                                                                accessible: {
+                                                                                                                                                                                                                                                  summary: 'ready',
+                                                                                                                                                                                                                                                  a11yVisual: 'ready',
+                                                                                                                                                                                                                                                  a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                  a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                  a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                documentation: 'partial',
+                                                                                                                                                                                                                                                responsive: 'ready',
+                                                                                                                                                                                                                                                status: 'ready',
+                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                              id: 'Switch',
+                                                                                                                                                                                                                                              platform: {
+                                                                                                                                                                                                                                                web: {
+                                                                                                                                                                                                                                                  name: 'Switch',
+                                                                                                                                                                                                                                                  visual: {
+                                                                                                                                                                                                                                                    svg: <Switch,
+                                                                                                                                                                                                                                                      alias: ['Toggle', 'Slide Toggle'],
+                                                                                                                                                                                                                                                    description: 'Switch is used for single cell options that can be turned on and off only.',
+                                                                                                                                                                                                                                                    category: ['Controls'],
+                                                                                                                                                                                                                                                    status: {
+                                                                                                                                                                                                                                                      accessible: {
+                                                                                                                                                                                                                                                        summary: 'ready',
+                                                                                                                                                                                                                                                        a11yVisual: 'ready',
+                                                                                                                                                                                                                                                        a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                        a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                        a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                      documentation: 'ready',
+                                                                                                                                                                                                                                                      figmaStatus: 'ready',
+                                                                                                                                                                                                                                                      responsive: 'ready',
+                                                                                                                                                                                                                                                      status: 'ready',
+                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                    android: {
+                                                                                                                                                                                                                                                      name: 'Switch',
+                                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                                        svg: <Switch,
+                                                                                                                                                                                                                                                          alias: ['Toggle', 'Slide Toggle'],
+                                                                                                                                                                                                                                                        description: 'Switch is used for single cell options that can be turned on and off only.',
+                                                                                                                                                                                                                                                        category: ['Controls'],
+                                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                                                                          figmaStatus: 'ready',
+                                                                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                        ios: {
+                                                                                                                                                                                                                                                          name: 'Switch',
+                                                                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                                                                            svg: <Switch,
+                                                                                                                                                                                                                                                              alias: ['Toggle', 'Slide Toggle'],
+                                                                                                                                                                                                                                                            description: 'Switch is used for single cell options that can be turned on and off only.',
+                                                                                                                                                                                                                                                            category: ['Controls'],
+                                                                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                                                                                                                                              status: 'planned',
+                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                            id: 'Table',
+                                                                                                                                                                                                                                                            platform: {
+                                                                                                                                                                                                                                                              web: {
+                                                                                                                                                                                                                                                                name: 'Table',
+                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                  svg: <Table,
+                                                                                                                                                                                                                                                                    alias: ['Data Table', 'Data Grid'],
+                                                                                                                                                                                                                                                                  description:
+                                                                                                                                                                                                                                                                    'Table is a set of structured data that is easy for a user to scan, examine, and compare.',
+                                                                                                                                                                                                                                                                  category: ['Data'],
+                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                                                                                      summary: 'partial',
+                                                                                                                                                                                                                                                                      a11yVisual: 'partial',
+                                                                                                                                                                                                                                                                      a11yScreenreader: 'partial',
+                                                                                                                                                                                                                                                                      a11yNavigation: 'partial',
+                                                                                                                                                                                                                                                                      a11yComprehension: 'partial',
+                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                                                    figmaStatus: 'partial',
+                                                                                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                  id: 'TableOfContents',
+                                                                                                                                                                                                                                                                  platform: {
+                                                                                                                                                                                                                                                                    web: {
+                                                                                                                                                                                                                                                                      name: 'TableOfContents',
+                                                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                                                        svg: <TableOfContents,
+                                                                                                                                                                                                                                                                          alias: ['Table of Contents', 'Page Navigation', 'Page Navigator', 'Secondary Nav'],
+                                                                                                                                                                                                                                                                        description:
+                                                                                                                                                                                                                                                                          'TableOfContents is used to navigate to anchors on a page. It also serves as an outline of a page’s content.',
+                                                                                                                                                                                                                                                                        category: ['Navigation'],
+                                                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                                                          accessible: {
+                                                                                                                                                                                                                                                                            a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                            a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                            a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                            a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                            summary: 'ready',
+                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                          badge: 'New',
+                                                                                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                                                                                          figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                          mobileAdaptive: 'notAvailable',
+                                                                                                                                                                                                                                                                          responsive: 'ready',
+                                                                                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                        id: 'Tabs',
+                                                                                                                                                                                                                                                                        platform: {
+                                                                                                                                                                                                                                                                          web: {
+                                                                                                                                                                                                                                                                            name: 'Tabs',
+                                                                                                                                                                                                                                                                            visual: {
+                                                                                                                                                                                                                                                                              svg: <Tabs,
+                                                                                                                                                                                                                                                                                description: 'Tabs may be used navigate between multiple URLs.',
+                                                                                                                                                                                                                                                                              category: ['Navigation'],
+                                                                                                                                                                                                                                                                              status: {
+                                                                                                                                                                                                                                                                                accessible: {
+                                                                                                                                                                                                                                                                                  summary: 'ready',
+                                                                                                                                                                                                                                                                                  a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                  a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                  a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                  a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                documentation: 'ready',
+                                                                                                                                                                                                                                                                                figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                responsive: 'ready',
+                                                                                                                                                                                                                                                                                status: 'ready',
+                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                              android: {
+                                                                                                                                                                                                                                                                                name: 'Tabs',
+                                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                                  svg: <Tabs,
+                                                                                                                                                                                                                                                                                    description: 'Tabs may be used navigate between multiple URLs.',
+                                                                                                                                                                                                                                                                                  category: ['Navigation'],
+                                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                  ios: {
+                                                                                                                                                                                                                                                                                    name: 'Tabs',
+                                                                                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                                                                                      svg: <Tabs,
+                                                                                                                                                                                                                                                                                        description: 'Tabs may be used navigate between multiple URLs.',
+                                                                                                                                                                                                                                                                                      category: ['Navigation'],
+                                                                                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                        status: 'ready',
+                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                      id: 'Tag',
+                                                                                                                                                                                                                                                                                      platform: {
+                                                                                                                                                                                                                                                                                        web: {
+                                                                                                                                                                                                                                                                                          name: 'Tag',
+                                                                                                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                                                                                                            svg: <Tag,
+                                                                                                                                                                                                                                                                                              alias: ['Chip', 'Pill', 'Filter Tag'],
+                                                                                                                                                                                                                                                                                            description: 'Tags are objects that hold text and have a delete icon to remove them.',
+                                                                                                                                                                                                                                                                                            category: ['Navigation'],
+                                                                                                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                                                                                                              accessible: {
+                                                                                                                                                                                                                                                                                                summary: 'ready',
+                                                                                                                                                                                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                                                                                                                                                              figmaStatus: 'partial',
+                                                                                                                                                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                                                                                                                                                              status: 'ready',
+                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                            id: 'TagData',
+                                                                                                                                                                                                                                                                                            platform: {
+                                                                                                                                                                                                                                                                                              web: {
+                                                                                                                                                                                                                                                                                                name: 'TagData',
+                                                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                                                  svg: <TagData,
+                                                                                                                                                                                                                                                                                                    alias: ['Chip', 'Pill', 'Filter', 'Tag'],
+                                                                                                                                                                                                                                                                                                  description:
+                                                                                                                                                                                                                                                                                                    'TagData can be used to select multiple categories to compare with each other in a graph or chart view.',
+                                                                                                                                                                                                                                                                                                  category: ['Data'],
+                                                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                                                                                                                      summary: 'ready',
+                                                                                                                                                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                      a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                    badge: 'Pilot',
+                                                                                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                  id: 'TapArea',
+                                                                                                                                                                                                                                                                                                  platform: {
+                                                                                                                                                                                                                                                                                                    web: {
+                                                                                                                                                                                                                                                                                                      name: 'TapArea',
+                                                                                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                                                                                        svg: <TapArea,
+                                                                                                                                                                                                                                                                                                          alias: ['Touchable'],
+                                                                                                                                                                                                                                                                                                        description:
+                                                                                                                                                                                                                                                                                                          'TapArea allows components to be clickable and touchable in an accessible way.',
+                                                                                                                                                                                                                                                                                                        category: ['Building blocks'],
+                                                                                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                                                                                          accessible: {
+                                                                                                                                                                                                                                                                                                            summary: 'ready',
+                                                                                                                                                                                                                                                                                                            a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                            a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                            a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                            a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                                          documentation: 'partial',
+                                                                                                                                                                                                                                                                                                          responsive: 'ready',
+                                                                                                                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                        id: 'Text',
+                                                                                                                                                                                                                                                                                                        platform: {
+                                                                                                                                                                                                                                                                                                          web: {
+                                                                                                                                                                                                                                                                                                            name: 'Text',
+                                                                                                                                                                                                                                                                                                            visual: {
+                                                                                                                                                                                                                                                                                                              svg: <Text,
+                                                                                                                                                                                                                                                                                                                alias: ['Copy, Subtext, Caption, Footer, Helper text'],
+                                                                                                                                                                                                                                                                                                              description: 'Text is used for all text on the page.',
+                                                                                                                                                                                                                                                                                                              category: ['Text'],
+                                                                                                                                                                                                                                                                                                              status: {
+                                                                                                                                                                                                                                                                                                                accessible: {
+                                                                                                                                                                                                                                                                                                                  summary: 'ready',
+                                                                                                                                                                                                                                                                                                                  a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                  a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                  a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                  a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                                                documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                status: 'ready',
+                                                                                                                                                                                                                                                                                                                knownIssues: [
+                                                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                                                    title: 'Line clamp truncation',
+                                                                                                                                                                                                                                                                                                                    description:
+                                                                                                                                                                                                                                                                                                                      'When the "lineClamp" prop is set to 1, text with long strings of characters might be truncated incorrectly',
+                                                                                                                                                                                                                                                                                                                    codesandboxUrl:
+                                                                                                                                                                                                                                                                                                                      'https://codesandbox.io/s/development-mode-forked-ngkj3c?file=/example.js',
+                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                  android: {
+                                                                                                                                                                                                                                                                                                                    name: 'Text',
+                                                                                                                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                                                                                                                      svg: <Text,
+                                                                                                                                                                                                                                                                                                                        alias: ['Copy, Subtext, Caption, Footer, Helper text'],
+                                                                                                                                                                                                                                                                                                                      description:
+                                                                                                                                                                                                                                                                                                                        'Text component is used for all representations of text on a surface. Text is based on Android typography guidelines.',
+                                                                                                                                                                                                                                                                                                                      category: ['Text'],
+                                                                                                                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                        status: 'ready',
+                                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                                      ios: {
+                                                                                                                                                                                                                                                                                                                        name: 'Text',
+                                                                                                                                                                                                                                                                                                                        visual: {
+                                                                                                                                                                                                                                                                                                                          svg: <Text,
+                                                                                                                                                                                                                                                                                                                            alias: ['Copy, Subtext, Caption, Footer, Helper text'],
+                                                                                                                                                                                                                                                                                                                          description:
+                                                                                                                                                                                                                                                                                                                            'Text component is used for all representations of text on a surface. Text is based on iOS typography guidelines.',
+                                                                                                                                                                                                                                                                                                                          category: ['Text'],
+                                                                                                                                                                                                                                                                                                                          status: {
+                                                                                                                                                                                                                                                                                                                            documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                            figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                            status: 'planned',
+                                                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                                                          id: 'TextArea',
+                                                                                                                                                                                                                                                                                                                          platform: {
+                                                                                                                                                                                                                                                                                                                            web: {
+                                                                                                                                                                                                                                                                                                                              name: 'TextArea',
+                                                                                                                                                                                                                                                                                                                              visual: {
+                                                                                                                                                                                                                                                                                                                                svg: <TextArea,
+                                                                                                                                                                                                                                                                                                                                  alias: ['Multi-line Input'],
+                                                                                                                                                                                                                                                                                                                                description: 'TextArea allows for multi-line input.',
+                                                                                                                                                                                                                                                                                                                                category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                status: {
+                                                                                                                                                                                                                                                                                                                                  accessible: {
+                                                                                                                                                                                                                                                                                                                                    summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                    a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                    a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                    a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                    a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                  documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                  figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                  responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                  status: 'ready',
+                                                                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                                                                android: {
+                                                                                                                                                                                                                                                                                                                                  name: 'TextArea',
+                                                                                                                                                                                                                                                                                                                                  visual: {
+                                                                                                                                                                                                                                                                                                                                    svg: <TextArea,
+                                                                                                                                                                                                                                                                                                                                      alias: ['Multi-line Input'],
+                                                                                                                                                                                                                                                                                                                                    description: 'TextArea allows for multi-line input.',
+                                                                                                                                                                                                                                                                                                                                    category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                    status: {
+                                                                                                                                                                                                                                                                                                                                      documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                      figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                      status: 'ready',
+                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                    ios: {
+                                                                                                                                                                                                                                                                                                                                      name: 'TextArea',
+                                                                                                                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                                                                                                                        svg: <TextArea,
+                                                                                                                                                                                                                                                                                                                                          alias: ['Multi-line Input'],
+                                                                                                                                                                                                                                                                                                                                        description: 'TextArea allows for multi-line input.',
+                                                                                                                                                                                                                                                                                                                                        category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                          figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                          status: 'planned',
+                                                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                                                        id: 'TextField',
+                                                                                                                                                                                                                                                                                                                                        platform: {
+                                                                                                                                                                                                                                                                                                                                          web: {
+                                                                                                                                                                                                                                                                                                                                            name: 'TextField',
+                                                                                                                                                                                                                                                                                                                                            visual: {
+                                                                                                                                                                                                                                                                                                                                              svg: <TextField,
+                                                                                                                                                                                                                                                                                                                                                alias: ['Text Input'],
+                                                                                                                                                                                                                                                                                                                                              description: 'TextField allows for multiple types of text input.',
+                                                                                                                                                                                                                                                                                                                                              category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                              status: {
+                                                                                                                                                                                                                                                                                                                                                accessible: {
+                                                                                                                                                                                                                                                                                                                                                  summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                                  a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                  a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                  a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                  a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                                                                                documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                status: 'ready',
+                                                                                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                                                                                              android: {
+                                                                                                                                                                                                                                                                                                                                                name: 'TextField',
+                                                                                                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                                                                                                  svg: <TextField,
+                                                                                                                                                                                                                                                                                                                                                    alias: ['Text Input'],
+                                                                                                                                                                                                                                                                                                                                                  description: 'TextField allows for multiple types of text input.',
+                                                                                                                                                                                                                                                                                                                                                  category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                                  ios: {
+                                                                                                                                                                                                                                                                                                                                                    name: 'TextField',
+                                                                                                                                                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                                                                                                                                                      svg: <TextField,
+                                                                                                                                                                                                                                                                                                                                                        alias: ['Text Input'],
+                                                                                                                                                                                                                                                                                                                                                      description: 'TextField allows for multiple types of text input.',
+                                                                                                                                                                                                                                                                                                                                                      category: ['Fields and forms'],
+                                                                                                                                                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                        status: 'planned',
+                                                                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                                                                      id: 'TileData',
+                                                                                                                                                                                                                                                                                                                                                      platform: {
+                                                                                                                                                                                                                                                                                                                                                        web: {
+                                                                                                                                                                                                                                                                                                                                                          name: 'TileData',
+                                                                                                                                                                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                                                                                                                                                                            svg: <TileData,
+                                                                                                                                                                                                                                                                                                                                                              alias: ['Card Grid', 'Item Featured', 'Choice Tile', 'Selection Card', 'Visual Picker'],
+                                                                                                                                                                                                                                                                                                                                                            description:
+                                                                                                                                                                                                                                                                                                                                                              'TileData can be used to select multiple categories to compare with each other in a graph or chart view.',
+                                                                                                                                                                                                                                                                                                                                                            category: ['Data'],
+                                                                                                                                                                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                                                                                                                                                                              accessible: {
+                                                                                                                                                                                                                                                                                                                                                                summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                                                                                                              badge: 'Pilot',
+                                                                                                                                                                                                                                                                                                                                                              documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                              status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                                                                            id: 'Toast',
+                                                                                                                                                                                                                                                                                                                                                            platform: {
+                                                                                                                                                                                                                                                                                                                                                              web: {
+                                                                                                                                                                                                                                                                                                                                                                name: 'Toast',
+                                                                                                                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                                                                                                                  svg: <Toast,
+                                                                                                                                                                                                                                                                                                                                                                    alias: ['Snackbar'],
+                                                                                                                                                                                                                                                                                                                                                                  description:
+                                                                                                                                                                                                                                                                                                                                                                    'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
+                                                                                                                                                                                                                                                                                                                                                                  category: ['Messaging'],
+                                                                                                                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                                                                                                                                                                                      summary: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                      a11yScreenreader: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                      a11yNavigation: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                      a11yComprehension: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                                                    documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                    figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                                                  android: {
+                                                                                                                                                                                                                                                                                                                                                                    name: 'Toast',
+                                                                                                                                                                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                                                                                                                                                                      svg: <Toast,
+                                                                                                                                                                                                                                                                                                                                                                        alias: ['Snackbar'],
+                                                                                                                                                                                                                                                                                                                                                                      description:
+                                                                                                                                                                                                                                                                                                                                                                        'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
+                                                                                                                                                                                                                                                                                                                                                                      category: ['Messaging'],
+                                                                                                                                                                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                        figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                        status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                                                                                      ios: {
+                                                                                                                                                                                                                                                                                                                                                                        name: 'Toast',
+                                                                                                                                                                                                                                                                                                                                                                        visual: {
+                                                                                                                                                                                                                                                                                                                                                                          svg: <Toast,
+                                                                                                                                                                                                                                                                                                                                                                            alias: ['Snackbar'],
+                                                                                                                                                                                                                                                                                                                                                                          description:
+                                                                                                                                                                                                                                                                                                                                                                            'Toasts educate users on the content of the screen, provide confirmation when people complete an action, or simply communicate a short message.',
+                                                                                                                                                                                                                                                                                                                                                                          category: ['Messaging'],
+                                                                                                                                                                                                                                                                                                                                                                          status: {
+                                                                                                                                                                                                                                                                                                                                                                            documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                            figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                            status: 'planned',
+                                                                                                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                                                                                                          id: 'Tooltip',
+                                                                                                                                                                                                                                                                                                                                                                          platform: {
+                                                                                                                                                                                                                                                                                                                                                                            web: {
+                                                                                                                                                                                                                                                                                                                                                                              name: 'Tooltip',
+                                                                                                                                                                                                                                                                                                                                                                              visual: {
+                                                                                                                                                                                                                                                                                                                                                                                svg: <Tooltip,
+                                                                                                                                                                                                                                                                                                                                                                                  alias: ['Info Tip'],
+                                                                                                                                                                                                                                                                                                                                                                                description:
+                                                                                                                                                                                                                                                                                                                                                                                  'Tooltip is a floating text label that succinctly describes the function of an interactive element.',
+                                                                                                                                                                                                                                                                                                                                                                                category: ['Help and guidance'],
+                                                                                                                                                                                                                                                                                                                                                                                status: {
+                                                                                                                                                                                                                                                                                                                                                                                  accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                    summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                    a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                    a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                    a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                    a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                                                                  documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                  figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                  responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                  status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                  knownIssues: [
+                                                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                                                      title: 'Incorrect positioning and dimensions',
+                                                                                                                                                                                                                                                                                                                                                                                      description:
+                                                                                                                                                                                                                                                                                                                                                                                        'Tooltip is built on top of Popover. Popover accumulates many known issues. It is a custom built component. We are in the process of exploring replacing it with a battle-tested third-party library. Check the linked document to see if your issue is already documented.',
+                                                                                                                                                                                                                                                                                                                                                                                      internalDocUrl: 'http://pinch.pinadmin.com/popover_history',
+                                                                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                                                                    id: 'Upsell',
+                                                                                                                                                                                                                                                                                                                                                                                    platform: {
+                                                                                                                                                                                                                                                                                                                                                                                      web: {
+                                                                                                                                                                                                                                                                                                                                                                                        name: 'Upsell',
+                                                                                                                                                                                                                                                                                                                                                                                        visual: {
+                                                                                                                                                                                                                                                                                                                                                                                          svg: <Upsell,
+                                                                                                                                                                                                                                                                                                                                                                                            alias: ['Banner', 'Offer Banner', 'CTA Banner'],
+                                                                                                                                                                                                                                                                                                                                                                                          description:
+                                                                                                                                                                                                                                                                                                                                                                                            'Upsells are banners that display short messages that focus on promoting an action or upgrading something the user already has.',
+                                                                                                                                                                                                                                                                                                                                                                                          category: ['Messaging'],
+                                                                                                                                                                                                                                                                                                                                                                                          status: {
+                                                                                                                                                                                                                                                                                                                                                                                            accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                              summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                              a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                              a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                              a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                              a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                                                                                                            documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                            figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                            responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                            status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                                                                                                                          id: 'useFocusVisible',
+                                                                                                                                                                                                                                                                                                                                                                                          platform: {
+                                                                                                                                                                                                                                                                                                                                                                                            web: {
+                                                                                                                                                                                                                                                                                                                                                                                              name: 'useFocusVisible',
+                                                                                                                                                                                                                                                                                                                                                                                              visual: {
+                                                                                                                                                                                                                                                                                                                                                                                                svg: <HookFocusVisible,
+                                                                                                                                                                                                                                                                                                                                                                                                  description: 'useFocusVisible manages focus interactions on the page.',
+                                                                                                                                                                                                                                                                                                                                                                                                category: ['Utilities'],
+                                                                                                                                                                                                                                                                                                                                                                                                path: '/web/utilities/usefocusvisible',
+                                                                                                                                                                                                                                                                                                                                                                                                status: {
+                                                                                                                                                                                                                                                                                                                                                                                                  accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                                    summary: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                                                    a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                    a11yScreenreader: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                    a11yNavigation: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                    a11yComprehension: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                                                                                  documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                  responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                  status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                                                                                                                                id: 'useReducedMotion',
+                                                                                                                                                                                                                                                                                                                                                                                                platform: {
+                                                                                                                                                                                                                                                                                                                                                                                                  web: {
+                                                                                                                                                                                                                                                                                                                                                                                                    name: 'useReducedMotion',
+                                                                                                                                                                                                                                                                                                                                                                                                    visual: {
+                                                                                                                                                                                                                                                                                                                                                                                                      svg: <HookReducedMotion,
+                                                                                                                                                                                                                                                                                                                                                                                                        description:
+          'useReducedMotion allows a user to request that the system minimize the amount of non-essential motion.',
+                                                                                                                                                                                                                                                                                                                                                                                                      category: ['Utilities'],
+                                                                                                                                                                                                                                                                                                                                                                                                      path: '/web/utilities/usereducedmotion',
+                                                                                                                                                                                                                                                                                                                                                                                                      alias: ['prefers-reduced-motion'],
+                                                                                                                                                                                                                                                                                                                                                                                                      status: {
+                                                                                                                                                                                                                                                                                                                                                                                                        accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                                          summary: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                                                          a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                          a11yScreenreader: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                          a11yNavigation: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                          a11yComprehension: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                                                                                                                        documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                        responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                        status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                      },
+                                                                                                                                                                                                                                                                                                                                                                                                      id: 'Video',
+                                                                                                                                                                                                                                                                                                                                                                                                      platform: {
+                                                                                                                                                                                                                                                                                                                                                                                                        web: {
+                                                                                                                                                                                                                                                                                                                                                                                                          name: 'Video',
+                                                                                                                                                                                                                                                                                                                                                                                                          visual: {
+                                                                                                                                                                                                                                                                                                                                                                                                            svg: <Video,
+                                                                                                                                                                                                                                                                                                                                                                                                              description: 'Video is used for media layout.',
+                                                                                                                                                                                                                                                                                                                                                                                                            category: ['Pins and imagery'],
+                                                                                                                                                                                                                                                                                                                                                                                                            status: {
+                                                                                                                                                                                                                                                                                                                                                                                                              accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                                                summary: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                                                                a11yVisual: 'notAvailable',
+                                                                                                                                                                                                                                                                                                                                                                                                                a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                                                                                                                                                              documentation: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                                                              figmaStatus: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                              responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                              status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                                                                                                                            id: 'WashAnimated',
+                                                                                                                                                                                                                                                                                                                                                                                                            platform: {
+                                                                                                                                                                                                                                                                                                                                                                                                              web: {
+                                                                                                                                                                                                                                                                                                                                                                                                                name: 'WashAnimated',
+                                                                                                                                                                                                                                                                                                                                                                                                                visual: {
+                                                                                                                                                                                                                                                                                                                                                                                                                  svg: <WashAnimated,
+                                                                                                                                                                                                                                                                                                                                                                                                                    alias: ['Card', 'Panel', 'Tile'],
+                                                                                                                                                                                                                                                                                                                                                                                                                  description: 'WashAnimated is used to highlight content in grids.',
+                                                                                                                                                                                                                                                                                                                                                                                                                  category: ['Structure'],
+                                                                                                                                                                                                                                                                                                                                                                                                                  status: {
+                                                                                                                                                                                                                                                                                                                                                                                                                    accessible: {
+                                                                                                                                                                                                                                                                                                                                                                                                                      summary: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                      a11yVisual: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                      a11yScreenreader: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                      a11yNavigation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                      a11yComprehension: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                                                                                                    documentation: 'partial',
+                                                                                                                                                                                                                                                                                                                                                                                                                    responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                    status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                                                                                                                                                                  id: 'Z-Index Classes',
+                                                                                                                                                                                                                                                                                                                                                                                                                  platform: {
+                                                                                                                                                                                                                                                                                                                                                                                                                    web: {
+                                                                                                                                                                                                                                                                                                                                                                                                                      name: 'Z-Index Classes',
+                                                                                                                                                                                                                                                                                                                                                                                                                      visual: {
+                                                                                                                                                                                                                                                                                                                                                                                                                        svg: <ZIndexClasses,
+                                                                                                                                                                                                                                                                                                                                                                                                                          description:
+          'FixedZIndex and CompositeZIndex are utility classes that generate z-indices for Gestalt components.',
+                                                                                                                                                                                                                                                                                                                                                                                                                        path: '/web/zindex_classes',
+                                                                                                                                                                                                                                                                                                                                                                                                                        category: ['Building blocks'],
+                                                                                                                                                                                                                                                                                                                                                                                                                        status: {
+                                                                                                                                                                                                                                                                                                                                                                                                                          documentation: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                          responsive: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                          status: 'ready',
+                                                                                                                                                                                                                                                                                                                                                                                                                        },
 ];
 
-export default componentData;
+                                                                                                                                                                                                                                                                                                                                                                                  export default componentData;
